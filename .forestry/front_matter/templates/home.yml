@@ -13,5 +13,10 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: test_content
+  type: text
+  config:
+    required: false
+  label: Test content
 pages:
 - portfolio/index.md
