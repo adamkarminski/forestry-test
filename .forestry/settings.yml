@@ -7,14 +7,14 @@ sections:
 - type: heading
   label: Content
 - type: document
-  path: portfolio/blog-posts/blog.md
-  label: Blog
-  match: "**/*"
-- type: document
   path: portfolio/index.md
   label: Homepage
   templates:
   - settings
+- type: document
+  path: portfolio/blog-posts/blog.md
+  label: Blog
+  match: "**/*"
 - type: directory
   path: portfolio/blog-posts
   label: Blog posts
