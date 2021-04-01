@@ -8,6 +8,6 @@ test_content: Halo
 ---
 <Hero :text="$page.frontmatter.hero_text" />
 
-<Test :text="$page.frontmatter.bottom_test" />
+<Hero :text="$page.frontmatter.test_content" />
 
- <WorksList />
+<WorksList />
